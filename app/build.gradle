@@ -26,7 +26,7 @@ android {
     //DRS 20160822h - Added sourceSets
     sourceSets {
         main {
-            jniLibs.srcDirs = ['C:\\Users\\Owner\\AndroidStudioProjects\\HelloCv\\app\\src\\main\\jniLibs']
+            jniLibs.srcDirs = ["src/main/jniLibs"]
         }
     }
     buildTypes {
